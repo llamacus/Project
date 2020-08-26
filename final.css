@@ -1,0 +1,121 @@
+body {
+    background-color: #F5C36D;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+} 
+h2 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+.navbar {
+    color: teal;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline;
+    width: 400px;
+    margin: auto;
+    text-decoration: none;
+}
+.navbar li {
+ float: center;
+ display: block;
+}
+.navbar li a:hover {
+ background-color: #F3B448
+}
+ul {
+    list-style-type: none;
+    color: #C91313
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color: #F5C36D; 
+}
+li a {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+    float: left;
+    color: #73AEE9;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+footer a {
+    font-family: 'Baloo Tamma 2', cursive;;
+    text-decoration: none;
+}
+.orange-background {
+    background-color: #F5C36D;
+    padding: 35px 70px;
+}
+.popup {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+}
+.popup div {
+    display: block;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 50px;
+    color: #F5C36D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.popup a {
+    text-decoration: none;
+}
+.list{
+    border: 200px 200px;
+    background-color:#F5C36D;
+    font-family: 'Baloo Tamma 2', cursive;
+    color:teal;
+    font-size: 15px;
+    padding: 40px 100px;
+}
+br {
+    font-family: 'Baloo Tamma 2', cursive;
+    color:teal;
+    background-color: #F5C36D;
+    border: 3px teal;
+}
+.ingredients{
+    font-family: 'Baloo Tamma 2', cursive;
+    color: navy;
+}
+.enjoy {
+    font-family: 'Londrina Solid', cursive;
+    color: teal;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #F5C36D;
+    border-width: 50px;
+}
+footer
+{
+    font-family: 'Londrina Solid', cursive;
+    color:#C91313;
+    font-size: 15px;  
+    text-align: center; 
+    border-radius: 7px;
+    border-end-end-radius: 100px;
+    background-color: #F5C36D;
+
+}
